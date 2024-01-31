@@ -1,0 +1,29 @@
+/* style.css */
+
+/* Base styling for boxes */
+.box {
+  background-color: blue; /* Blue background for all elements with class "box" */
+  padding: 10px; /* 10 pixels of padding for all elements with class "box" */
+}
+
+/* Styling for inner boxes within an element with class "box" */
+.inner-box {
+  background-color: red; /* Red background for inner boxes within an element with class "box" */
+}
+
+/* Styling for the outer box with the id "outer-box" */
+#outer-box {
+  background-color: purple; /* Purple background for the element with id "outer-box" */
+}
+
+/* Styling for all paragraphs */
+p {
+  color: yellow; /* Yellow text color for all paragraphs */
+  margin: 0; /* No margin for all paragraphs */
+  padding: 0; /* No padding for all paragraphs */
+}
+
+/* Styling for paragraphs with the class "white-text" */
+.white-text {
+  color: white; /* White text color for paragraphs with the class "white-text" */
+}
